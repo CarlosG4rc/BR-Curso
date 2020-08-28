@@ -59,11 +59,13 @@
             <fieldset>
                 <legend>Contacto</legend>
                 <p>Cómo desea ser contatado</p>
-                <label for="telefono">Teléfono</label>
-                <input type="radio" name="contacto" value="telefono" id="telefono">
+                <div class="forma-contacto">
+                    <label for="telefono">Teléfono</label>
+                    <input type="radio" name="contacto" value="telefono" id="telefono">
 
-                <label for="correo">E-mail</label>
-                <input type="radio" name="contacto" value="correo" id="correo">
+                    <label for="correo">E-mail</label>
+                    <input type="radio" name="contacto" value="correo" id="correo">
+                </div>
 
                 <p>Si Eligió teléfono, elija la fecha y hora</p>
                 <label for="fecha">Fecha</label>
@@ -73,7 +75,7 @@
                 <input type="time" id="hora" min="9:00" max="18:00">
             </fieldset>
 
-            <input type="submit">
+            <input type="submit" value="Enviar" class=" boton boton-verde">
 
         </form>
     </main>
